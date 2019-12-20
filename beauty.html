@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+
+    <!-- My CSS -->
+    <style>
+    /*Navbar*/
+    .navbar {
+        position: relative;
+        z-index: 1;
+    }
+
+    .navbar-brand {
+        font-family: viga;
+        font-size: 20px;
+    } 
+
+    .jumbotron .display-4 span {
+        font-weight: 500;
+    }
+
+    /*Jumbotron*/
+    .jumbotron {
+        background-image: url(img/beauty.jpg);
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        /*background-attachment: fixed;*/
+        /*background-size: cover;
+*/    }
+
+    .jumbotron .container {
+        z-index: 1;
+        position: relative;
+        height: 100px;
+
+    }
+
+    .jumbotron:: after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 80%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        position: absolute;
+        bottom: 0;
+    }
+
+    .jumbotron .display-4 {
+        color: white;
+        text-align: center;
+        margin-top: 150px;
+        font-weight: 300;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        font-size: 40px;
+    }
+
+    .jumbotron .display-4 span {
+        font-weight: 500;
+    }
+
+    /*card*/
+    .card {
+      margin-bottom: -40px;
+      margin-top: 20px;
+    }
+
+    /*Button*/
+    .btn {
+        margin-top: 50px;
+    }
+
+    .btn .btn-success{
+        margin-top: 30px;
+    }
+
+    /*Foter*/
+    .footer {
+        background-color: #FFB6C1;
+        height: 60px;
+        font-size: 20px;
+        color: #FAF0E6;
+        margin-top: 40px;
+    }
+    /*Akhir Footer*/
+
+    /*Ukuran Desktop*/
+    @media (min-width: 992px) {
+        .navbar-brand, .nav-link {
+            color: white ! important;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        }
+
+        .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+        }
+
+        .nav-link: hover:: after {
+            content: '';
+            display: block;
+            border-bottom: 3px solid #0B63DC;
+            width: 50%;
+            margin: auto;
+            padding-bottom: 5px;
+            margin-bottom: -8px;
+        }
+
+        .jumbotron {
+            margin-top: -75px;
+            height: 440px;
+        }
+
+        .jumbotron .display-4 {
+            font-size: 62px;
+        }
+     }
+    </style>
+    <!-- Akhir My CSS -->
+
+    <title>Beauty</title>
+  </head>
+  <body>
+  <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/dc1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Daily Care
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link active" href="beauty.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="landingpage.html">Beauty</a>
+              <a class="nav-item nav-link" href="review.html">Review</a>
+              <a class="nav-item nav-link" href="news.html" tabindex="-1" aria-disabled="true">News</a>
+              <a class="nav-item nav-link" href="loginuser.php" tabindex="-1" aria-disabled="true">Survei</a>
+              <a class="nav-item nav-link" href="channelproduct.php">CHANNEL</a>
+              <a class="nav-item nav-link" href="filmrajar.php">FILM</a>
+          </div>
+        </div>
+      </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid" border="5">
+      <div class="container">   
+      </div>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Container -->
+    <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4">
+    <div class="card">
+      <img src="img/hackb.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tips & Hacks</h5>
+        <p class="card-text"> <a href="https://www.hipwee.com/tips/10-makeup-hack-buat-kamu-yang-suka-tapi-belum-terlalu-biasa-yuk-dicoba/">10 Makeup Hack Buat kamu Yang Suka Tapi Belum Terlalu Biasa. Yuk Dicoba! </a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col mb-4">
+    <div class="card">
+      <img src="img/inspi.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Inspiration</h5>
+        <p class="card-text"> <a href="https://bp-guide.id/AX6NKM5C">Simak Yuk Perjuangan Artis Korea Menjaga Kulitnya Tetap Cantik!.</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col mb-4">
+    <div class="card">
+      <img src="img/diet.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lifestyle</h5>
+        <p class="card-text"><a href="">Ingin Cepat Langsing?? Tiru Diet Artis Korea Favorit Ini Yuk!</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col mb-4">
+    <div class="card">
+      <img src="img/info.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Female</h5>
+        <p class="card-text"><a href="https://www.theshonet.com/articles/thailand-make-up-look">Mau Tahu Apa Perbedan Makeup Thailand dengan Makeup Korean? Simak Yuk!.</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button -->
+<button type="button" class="btn btn-danger">Tips & Hack</button>
+<!-- Akhir Button -->
+
+<!-- card tips & hacks -->
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-6">
+    <div class="card">
+      <img src="img/tips1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tips & Hacks</h5>
+        <p class="card-text"><a href="https://lifestyle.bisnis.com/read/20141220/104/384620/tips-makeup-cepat-dalam-waktu-10-menit">Mau Makeup Tapi Waktunya Ga Cukup? Tenang Ini Dia Tips Makeup 10 Menit.</a></p>
+      </div>
+    </div>
+  </div><br><br>
+  <div class="col mb-6">
+    <div class="card">
+      <img src="img/tips2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tips & Hacks</h5>
+        <p class="card-text"><a href="https://womantalk.com/beauty/articles/inspirasi-makeup-simpel-untuk-kondangan-ala-5-selebriti-berhijab-y95Nq">Mau Tahu Makeup Kondangan Ala Artis yang Berhijab Indonesia? Kepoin Yuk!</a></p>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-mb-6">
+      <img src="img/tips3.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-mb-6">
+      <div class="card-body">
+        <h5 class="card-title">To[s & Hacks</h5>
+        <p class="card-text"><a href="https://www.cnnindonesia.com/gaya-hidup/20180426111822-277-293706/10-kesalahan-makeup-yang-buat-wajah-terlihat-tua">Ini Dia 10 Kesalahan Makeup Yang Membuat Wajah Anda Terlihat Tua!.</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Akhir Card Tips & hack -->
+
+<!-- Button -->
+<button type="button" class="btn btn-success">Inspiration</button>
+<!-- Akhir Button -->
+<!-- card Inspiration -->
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-6">
+    <div class="card">
+      <img src="img/if.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Inspiration</h5>
+        <p class="card-text"><a href="https://merahputih.com/post/read/inspirasi-make-up-zodiak">Ini Dia Inspirasi Makeup Ala Zodiak Yang Pasti Keren.</a></p>
+      </div>
+    </div>
+  </div><br><br>
+  <div class="col mb-6">
+    <div class="card">
+      <img src="img/if2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Inspiration</h5>
+        <p class="card-text"><a href="https://kumparan.com/kumparanwoman/lipstik-merah-diprediksi-jadi-tren-makeup-2020-1sFxxPBNTGQ">Mau Tahu Prediksi Warna Lipstik 2020? Simak Penjelasannya!</a></p>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+<!-- Akhir card Inspiration -->
+</div>
+    <!-- Akhir Container -->
+  <!-- Footer -->
+  <footer>
+      <div class="container-justify">
+        <div class="row footer">
+          <div class="col">
+            <p align="center"> &copy; Daily Care | 2019
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

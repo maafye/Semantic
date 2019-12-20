@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+
+    <!-- My CSS -->
+    <style>
+    /*Navbar*/
+    .navbar {
+      position: relative;
+      z-index: 1;
+    }
+
+    .navbar-brand {
+      font-family: viga;
+      font-size: 20px;
+    } 
+
+    .jumbotron .display-4 span {
+      font-weight: 500;
+    }
+
+    /*panel*/
+    .info-panel {
+       box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+       border-radius: 12px;
+       margin-top: -80px;
+       background-color: white;
+       padding: 30px;
+    }
+
+    .info-panel img {
+      width: 80px;
+      height: 50px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+
+    .info-panel h4 {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .info-panel p {
+      font-size: 14px;
+      color: #ACACAC;
+      margin-top: -5px;
+      font-weight: 200;
+    }
+    /*akhir panel*/
+
+    /*Jumbotron*/
+    .jumbotron {
+      background-image: url(img/glosary1.jpg);
+      background-size: cover;
+      height: 400px;
+      position: relative;
+    /*  background-attachment: fixed;*/
+      background-size: cover;
+    }
+
+    .jumbotron .container {
+      z-index: 1;
+      position: relative;
+      height: 100px;
+
+    }
+
+    .jumbotron:: after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 80%;
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+      position: absolute;
+      bottom: 0;
+    }
+
+    .jumbotron .display-4 {
+      color: white;
+      text-align: center;
+      margin-top: 150px;
+      font-weight: 300;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+      font-size: 40px;
+    }
+
+    .jumbotron .display-4 span {
+      font-weight: 500;
+    }
+
+    /*card*/
+    .card {
+      margin-bottom: -40px;
+      margin-top: 20px;
+    }
+
+    .alert {
+      margin-top: 50px;
+      margin-bottom: -10px;
+    }
+
+    /*Foter*/
+    .footer {
+      background-color: #FFB6C1;
+      height: 60px;
+      font-size: 20px;
+      color: #FAF0E6;
+      margin-top: 30px;
+    }
+    /*Akhir Footer*/
+
+    /*Ukuran Desktop*/
+    @media (min-width: 992px) {
+      .navbar-brand, .nav-link {
+        color: white ! important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+      }
+
+      .nav-link {
+      text-transform: uppercase;
+      margin-right: 20px;
+      }
+
+      .nav-link: hover:: after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+      }
+
+      .jumbotron {
+        margin-top: -75px;
+        height: 440px;
+      }
+
+      .jumbotron .display-4 {
+        font-size: 62px;
+      }
+     }
+    </style>
+    <!-- Akhir My CSS -->
+    <title>Review</title>
+  </head>
+  <body>
+  <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/dc1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Daily Care
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link active" href="Beauty.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="landingpage.html">Beauty</a>
+              <a class="nav-item nav-link" href="review.html">Review</a>
+              <a class="nav-item nav-link" href="news.html" tabindex="-1" aria-disabled="true">News</a>
+              <a class="nav-item nav-link" href="loginuser.php" tabindex="-1" aria-disabled="true">Survei</a>
+              <a class="nav-item nav-link" href="channelproduct.php">CHANNEL</a>
+              <a class="nav-item nav-link" href="filmrajar.php">FILM</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid" border="5">
+      <div class="container">   
+      </div>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- container -->
+    <div class="container">
+      <!-- panel -->
+      <dir class="row justify-content-center">
+        <div class="col-10 info-panel">
+          <div class="row">
+            <div class="col-lg"> <a href="#">
+              <img src="img/wardah.jpg" alt="24" class="float-left"> 
+              <h4><a href="#wardah">Wardah</a></h4>
+              <p> Dapatkan kecantikan sejatimu </p></a>
+            </div>
+            <div class="col-lg"> <a href="#">
+              <img src="img/emina.jpg" alt="dokter2"  class="float-left">
+              <h4><a href="#emina">Emina</a></h4>
+              <p> Dapatkan kecantikan alamimu </p> </a>
+            </div>
+            <div class="col-lg"> <a href="">
+              <img src="img/herborist.jpeg" alt="Security"  class="float-left">
+              <h4><a href="#herborist">Herborist</a></h4>
+              <p> Dapatkan kecantikan yang sebenarnya </p></a>
+            </div>
+          </div>
+        </div>
+      </dir>
+      <!-- Akhir Panel -->
+
+    <!-- card -->
+    <div class="alert alert-primary" role="alert" id="wardah">
+    <h4 align="center"> <b>Wardah</b></h4>
+    </div>
+    <div class="card-deck">
+    <div class="card" >
+      <img src="img/wardah1a.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Wardah SPF 30</h5>
+        <p class="card-text">Perlindungan yang baik pada kulit wajah membantu anda terhindar dari bahaya sinar ultraviolet yang dapat menyebabkan flek hitam pada kulit wajah.</p>
+      </div>
+      <!-- <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div> -->
+    </div>
+
+    <div class="card">
+      <img src="img/wardahc.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Wardah C Defense Serum</h5>
+        <p class="card-text"> Sudah menjadi rahasia umum kalau wardah c defense serum merupakan serum yang sangat bagus.Salah satu serum wajah karya lokal yang memiliki manfaat sangat baik untuk pengaplikasian pada wajah anda.</p>
+      </div>
+     <!--  <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div> -->
+    </div>
+
+    <div class="card" >
+      <img src="img/wardahr.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Wardah Renew You Anti Aging Day Cream</h5>
+        <p class="card-text">Tekstur oily & thick dari cream wardah ini cocok unutk membuat kulit wajah kalian terdehidrasi dengan sempurna. Wanginya membuat kita relax ketika meghirup saat mengaplikasikan pada kulit wajah.</p>
+      </div>
+      <!-- <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div> -->
+    </div>
+  </div>
+
+  <!-- card emina -->
+  <div class="alert alert-success" role="alert" id="emina">
+    <h4 align="center"> <b>Emina</b></h4>
+  </div>
+  <div class="card-deck">
+    <div class="card" >
+      <img src="img/liptint.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Emina Lip Tint Eraser</h5>
+        <p class="card-text"> Produk emina yang satu ini dijamin sangat cocok untuk kalian para penggemar liptint yang kadang susah membersihkan sisa liptint di bibir kalian saat selesai beraktivitas. Produk Emina ini pasti akan membersihkan bibir kalian dengan sangat baik.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/emina.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Emina Sun Protection SPF 30</h5>
+        <p class="card-text">Tekstur emina yang sangat lembut membuatnya mudah untuk diaplikasikan pada wajah anda yang sering beraktivitas diluar ruangan. Dari segi kemasan, produk ini juga sangat baik dan bisa juga dibawa saat bepergian jauh.</p>
+      </div>
+    </div>
+
+    <div class="card" >
+      <img src="img/eminam.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Emina Sheet Mask</h5>
+        <p class="card-text">Sheet mask dari emina ini sangat populer dikalangan para remaja. Sheet mask ini disedikan dengan 5 varian yaitu varian Rice, Pomegranate, Aloe vera, Sunflower seed oil, dan Tea tree oil.</p>
+      </div>
+    </div>
+  </div>
+  <!-- akhir card emina -->
+
+  <!-- card herborist -->
+   <div class="alert alert-dark" role="alert" id="herborist">
+    <h4 align="center"> <b>Herborist</b></h4>
+  </div>
+  <div class="card-deck">
+    <div class="card" >
+      <img src="img/herboristl.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Herborist Lulur Tradsional Bal-Beras</h5>
+        <p class="card-text">Varian beras ini mengandung sari beras, zat Oryzanol, Vitamin B, dan Vitamin E yang afektif memperbarui pigmen kulit dan melindunginya dari paparan matahari..</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/herboristz.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Herborist Minyak Zaitun</h5>
+        <p class="card-text">Minyak zaitun merupakan bahan serbaguna yang bisa diguakan dikulit sebagai minyak oles unutk pijat atau moistiruzer, serta merawat kesehatan rambut agar tampak berkilau dan kuat..</p>
+      </div>
+    </div>
+
+    <div class="card" >
+      <img src="img/herborists.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Herborist Sabun Sere</h5>
+        <p class="card-text">varian ini mengandung minyak sere alami yang menghangatkan tubuh, mencegah gatal, mengurangi bau badan, dan diklaim bisa melindungi tubuh dari gigitan serangga seperti nyamuk.</p>
+      </div>
+    </div>
+  </div>
+  <!-- akhir card herborist -->
+  <!-- Akhir card -->
+  </div>
+  <!-- Akhir container -->
+
+  <!-- Footer -->
+  <footer>
+      <div class="container-justify">
+        <div class="row footer">
+          <div class="col">
+            <p align="center"> &copy; Daily Care | 2019
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

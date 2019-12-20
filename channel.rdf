@@ -1,0 +1,39 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
+    xmlns:geonames="http://www.geonames.org/ontology#">
+    
+  <foaf:Person rdf:about="https://beautynesia.id/28294/article/skincare/cegah-penuaan-dini-dengan-shu-uemura-skin-purifier-anti-oxi-skin-refin">
+  <dc:name>Shu Uemura Skin Purrifier</dc:name>
+        <foaf:homepage rdf:resource="https://www.Purrifier.com/"/>
+        <foaf:Description>Shu Uemura Skin Purifier Anti/Oxi Skin Refining Anti Dullness Cleansing Oil memiliki kemasan berupa botol berwarna hijau dengan model pump. Kemasan luarnya juga berupa box berwarna hijau, senada dengan botol. Shu Uemura Skin Purifier Anti/Oxi Skin Refining Anti Dullness Cleansing Oil tersedia dalam beberapa kemasan berdasarkan isinya, yakni 50 ml, 150 ml dan 450 ml.Pembersih wajah dari Shu Uemura ini diformulasikan untuk semua jenis kulit. Teksturnya light oily dan bisa menjadi facial cleanser yang baik.</foaf:Description>
+  <geonames:Price>$80</geonames:Price>
+        </foaf:Person>
+  
+  <foaf:Person rdf:about="https://www.kyliecosmetics.com/products/the-bronze-palette">
+  <dc:name>Kylie Cosmetics The Bronze Palette</dc:name>
+        <foaf:homepage rdf:resource="https://www.Palette.com/"/>
+        <foaf:Description>Produk yang warnanya penuh kecoklatan.Warna-warna paling aman banget buat diaplikasikan ke wajah. Dupe dari produk tersebut adalah Revlon Colorstay Not Just Nudes Palette. Harganya jauh lebih miring. Untuk bikin bulu mata lentik  memakai Shu Uemura Premium Curler, kalau kita mau harga curler yang lebih miring, pilih aja Maybelline Eyelash Curler.</foaf:Description>
+  <geonames:Price>$42.00 USD</geonames:Price>
+        </foaf:Person>
+
+
+  <foaf:Person rdf:about="https://www.shuuemura.com.sg/depsea-hydrability-moisturizing-lip-balm.html">
+  <dc:name>Shu Uemura Moisturizing Lip Balm</dc:name>
+        <foaf:homepage rdf:resource="https://www.LipBalm.com/"/>
+        <foaf:Description>Digunakan untuk melembapkan bibir,ita bisa ngedapetin manfaat yang sama dari produk tersebut dengan dupe dari merek Nivea Lip Butter yang affordable tapi kualitasnya enggak kalah bagus. Lipstick Kylie ini udah banyak banget dupe-nya, girls. Bahkan lipstick matte milik brand lokal juga enggak kalah kok kualitasnya dengan lipstick Kylie.</foaf:Description>
+  <geonames:Price>$100.00</geonames:Price>
+        </foaf:Person> 
+
+   <foaf:Person rdf:about="https://editorial.femaledaily.com/blog/2013/10/07/lipstick-monday-chanel-rouge-allure-99-pirate/">
+  <dc:name>Rouge Allure in Pirate</dc:name>
+        <foaf:homepage rdf:resource="https://www.RougeAllure.com/"/>
+        <foaf:Description> It’s always a joy to able to find a red lipstick that could be worn day and night. And the best part? Usually, this type of red would suit many different skin tones. Albeit, the overall result and aura might look different, but they all make a big difference in how you look.></foaf:Description>
+  <geonames:Price>$85.00</geonames:Price>
+   </foaf:Person> 
+
+  
+
+
+</rdf:RDF>
